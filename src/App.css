@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: silver;
+ min-height: 550px;
+ width: 400px;
+ margin: 40px auto;
 }
 
 .App-logo {
@@ -12,16 +16,69 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.input{
+  height: 40px;
+  font-family: cursive;
+  width: 200px;
+  padding: 0 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.delete{
+  float: right;
+  font-family: cursive;
+  margin-bottom: 5px;
+  margin-right: 30px;
+}
+.edit{
+  float: right;
+  font-family: cursive;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.done{
+  float: right;
+  font-family: cursive;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.txtb{
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+  margin-left: 40px;
+}
 
+.input:focus{
+  outline: none;
+}
+.Add{
+  height: 40px;
+  width: 80px;
+  margin-left: 15px;
+  border-radius: 10px;
+  font-family: cursive;
+}
+.Add:focus{
+  outline: none;
+}
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
+  
+  
+  /* flex-direction: column; */
+ 
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+   font-size: 25px;
   color: white;
+  font-family: cursive;
+   /* margin-bottom: 5px; */
+  
+   
 }
 
 .App-link {
